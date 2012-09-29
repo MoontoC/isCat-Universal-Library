@@ -2,7 +2,7 @@
 
 namespace isCat\Template;
 
-class Parser
+class TemplateParser
 {
 	function __construct()
 	{
