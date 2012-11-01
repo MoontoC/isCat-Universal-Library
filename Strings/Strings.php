@@ -20,7 +20,7 @@ abstract class Strings
 		}
 		elseif ( is_object($input) )
 		{
-			$ref = new ReflectionObject($input);
+			$ref = new \ReflectionObject($input);
 
 			if ( $ref->hasMethod('toString') &&
 					 $ref->getMethod('toString')->isPublic() &&
